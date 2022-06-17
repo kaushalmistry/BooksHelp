@@ -1,0 +1,85 @@
+/* Slideshow container */
+.slideshow26 {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.myslide26 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev26, .next26 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin: 10px;
+}
+
+
+/* Position the "next button" to the right */
+.next26 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev26:hover, .next26:hover {
+  background-color: rgba(156, 149, 149, 0.8);
+  color: white;
+  border-radius: 15px;
+}
+
+/* The dot/bullet/indicator container */
+.dotc26 {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot26 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active26, .dot26:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Add a blue color to the author */
+.author26 {
+    color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 20px;
+}
